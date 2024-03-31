@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L&S Kids</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<style>
+    @media only screen and (min-width: 1024px) {
+    body{
+        background: #ffffff;
+    }
+    /* Cabeçalho */
+    .div-pai{
+        /* border: solid 4px #A0D18C; */
+        margin: auto;
+        height: 80px;
+        width: 60%;
+        display: flex;
+    }
+    
+    header{
+        border: solid 1px #ffffff;
+        background-color: #ffdaf5;
+        display: flex;
+
+        align-items: center;
+        border-radius: 20px;
+        height: 10%;
+        width: 50%;
+
+        position: fixed;
+        justify-content: space-around;
+    }
+
+    .div-esquerdo{
+        border: solid 0px rgb(154, 18, 18);
+        /* background-color: rgb(226, 43, 43); */
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #btHome,
+    #btSobrenos,
+    #btContato{
+        background: #fccbfb;;
+        border: solid 0px #000;
+        color: #121212;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    #btHome:hover,
+    #btSobrenos:hover,
+    #btContato:hover{
+        filter: brightness(90%);
+    }
+   
+
+    /*  */
+    .div-meio{
+        /* border: solid 0px rgb(0, 255, 47); */
+        display: flex;
+        align-items: center;
+    }
+    
+    .div-direito{
+        border: solid 0px #000;
+        
+
+        width: 35%;
+        display: flex;
+
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #ender{
+        font-size: 17px;
+    }
+
+
+    /* Corpo */
+    .div-mestre{
+        border: solid 1px #fccbfb;
+        background: #ffdaf5;
+        display: flex;
+        width: auto;    
+        height: auto;
+        margin: auto;
+        margin-top: 10px;
+        gap: 10px;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .lay-esquerdo{
+        /* background:#fccbfb; */
+        display: flex;
+        height: auto;
+        width: 10%;
+        gap: 3px;
+        padding: 5px;
+        flex-direction: column;
+        text-align: justify;
+        align-items: center;
+    }
+    /* Titulo Masculino */
+    .t-masc{
+        color: #121212;
+        margin-left: 10px;
+    }
+    /* Titulo Feminino */
+    .t-fem{
+        color: #121212;
+    }
+
+    /* Tamanho das peças */
+    #tam{
+        color: #121212;
+        font-size: 15px;
+
+        text-decoration: none;
+    }
+    #tam:hover{
+        filter: brightness(80%);
+        color: #fff;
+    }
+
+    .lay-meio{
+        background: #ffffff;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        
+        flex-direction: column;
+        border-top-right-radius: 20px;
+    }
+
+    /* Descrição das peças */
+    #infor{
+        display: flex;
+        color: aquamarine;
+        text-align: center;
+        flex-direction: column;
+    }
+    #nome-peça{color: #000;} #tamanho{color: #000;} #preco{color: rgb(13, 197, 56);}
+    /* ----------------- */
+
+    .fileira-1{
+    
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fileira-2{
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fileira-3{
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .fileira-4{
+        display: flex;
+        margin: auto;
+        margin-top: 20px;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+</style>
+<body>
+    <!-- Cabeçalho -->
+    <div class="div-pai">
+        <header>
+            <div class="div-esquerdo">
+                <a href="index.html" id="btHome">
+                    <button id="btHome">Home</button>
+                </a>
+                <a href="" id="btSobrenos">
+                    <button id="btSobrenos">Catálogo</button>
+                </a>
+                <a href="" id="btContato">
+                    <button id="btContato">Contato</button>
+                </a>
+            </div>
+            <div class="div-meio">
+                <img src="img/logo.png" alt="" height="130px">
+            </div>
+            <div class="div-direito">
+                <span id="ender">R.Floriano Peixoto N°460 - Messias AL</span>
+
+                <a href="https://www.instagram.com/ls_kids7/">
+                    <img src="img/logo-instagram.png" height="40px" alt="">
+                </a> 
+
+                <a href="">
+                    <img src="img/logo-facebook.png" height="40px" alt="">
+                </a>
+
+                <a href="">
+                    <img src="img/logo-instagram.png" height="40px" alt="">
+                </a>
+            </div>
+        </header>
+    </div>
+
+    <!-- Corpo -->
+    <div class="div-mestre">
+        <div class="lay-esquerdo">
+            <p class="t-masc">Peças Masculina</p>
+
+                <a href="" id="tam"><span id="tam">Tamanho P</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho M</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho G</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho GG</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 1</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 2</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 3</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 4</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 6</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 8</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 10</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 12</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 14</span></a>
+
+                <p class="t-fem">Peças Feminina</p>
+
+                <a href="" id="tam"><span id="tam">Tamanho P</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho M</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho G</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho GG</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 1</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 2</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 3</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 4</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 6</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 8</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 10</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 12</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 14</span></a>
+
+                <p href="" id="tam">Vestidos</p>
+                <a href="" id="tam"><span id="tam">Tamanho P</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho M</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho G</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho GG</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 1</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 2</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 3</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 4</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 6</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 8</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 10</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 12</span></a>
+                <a href="" id="tam"><span id="tam">Tamanho 14</span></a>
+        </div>
+
+        <div class="lay-meio">
+
+            <div class="fileira-1">
+                <div class="img-01">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-02">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-03">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-04">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-05">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-06">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+
+           
+
+        
+            </div>
+
+            <div class="fileira-2">
+                <div class="img-01">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-02">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-03">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-04">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-05">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-06">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+            </div>
+
+            <div class="fileira-3">
+                <div class="img-01">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-02">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-03">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-04">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-05">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-06">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+            </div>
+            <div class="fileira-4">
+                <div class="img-01">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-02">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-03">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-04">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-05">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+                <div class="img-06">
+                    <img src="img/50.png" height="200px" width="200px">
+                    <span id="infor">
+                        <span id="nome-peça">Peça Feminina</span>
+                        <span id="tamanho">Tamanho: 00</span>
+                        <span id="preco">Preço: R$00,00</span>
+                    </span>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

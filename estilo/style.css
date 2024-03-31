@@ -1,0 +1,170 @@
+@media only screen and (min-width: 1024px) {
+    body {
+        background: #ffffff;
+    }
+
+    /* Cabeçalho */
+    .div-pai {
+        /* border: solid 4px #A0D18C; */
+        margin: auto;
+
+        height: 80px;
+        width: 60%;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header {
+        border: solid 1px #ffffff;
+        background: #f9f0fe;
+        display: flex;
+
+        align-items: center;
+        border-radius: 20px;
+        height: 10%;
+        width: 50%;
+
+        position: fixed;
+        justify-content: space-around;
+    }
+
+    .div-esquerdo {
+        border: solid 0px rgb(154, 18, 18);
+        /* background-color: rgb(226, 43, 43); */
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #btHome,#btCatalogo,#btContato {
+        background: none;
+        border: solid 0px #000;
+        color: #121212;
+        font-size: 20px;
+        border-radius: 5px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #btHome:hover,#btCatalogo:hover,#btContato:hover {
+        filter: brightness(90%);
+        background: #f9ddf9;
+        ;
+    }
+
+    /*  */
+    .div-meio {
+        /* border: solid 0px rgb(0, 255, 47); */
+        display: flex;
+        align-items: center;
+    }
+
+    .div-direito {
+        border: solid 0px #000;
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #ender {
+        font-size: 13px; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+    /* Corpo */
+    .div-mestre {
+        border: solid 1px #ffffff;
+        background: #ffffff;
+        display: flex;
+        width: 100%;
+        height: 16cm;
+        margin: auto;
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .banner{
+        background: #0b5cfc;
+        display: flex;
+        width: 100%;
+        
+    }
+
+    #img1 {
+        margin-top: 60px;
+    }
+
+    .div-f1 {
+        display: flex;
+        height: 100px;
+        width: 100%;
+    }
+
+    #bemvindo {
+        border: solid 1px #ffffff;
+        background: #f9f0fe;
+        text-align: center;
+        margin: auto;
+        width: 50%;
+        margin-top: -12px;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    #color1 {color: #0b5cfc;} #color2 {color: #f709a4;}
+
+    .div-f2 {
+        background: #f9f0fe;
+        color: #000;
+        display: flex;
+        height: 100px;
+        width: 100%;
+        margin-top: 14px;
+        font-size: 22px;
+        justify-content: space-around;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    #blu{color: #0b5cfc;} #ros{color: #f709a4;}
+
+    .div-f3{
+        background: #f9f0fe;
+        display: flex;
+        height: auto;
+        width: auto;
+        padding: 5px;
+        flex-direction: column;
+    }
+    #t-sobrenos{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #text-1{
+        text-align: justify;
+        margin-top: -25px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+#t-contato{
+    margin-top: -10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+    
+.termos{
+    background: #ffd7f1;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+#dir{
+    height: 30px;
+    width: auto;
+}
+}
