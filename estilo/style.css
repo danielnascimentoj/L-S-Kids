@@ -23,7 +23,7 @@
         align-items: center;
         border-radius: 20px;
         height: 10%;
-        width: 50%;
+        width: 60%;
 
         position: fixed;
         justify-content: space-around;
@@ -38,19 +38,21 @@
         justify-content: space-evenly;
     }
 
-    #btHome,#btCatalogo,#btContato {
+    #btHome,
+    #btCatalogo,
+    #btContato {
         background: none;
         border: solid 0px #000;
         color: #121212;
         font-size: 20px;
         border-radius: 5px;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-
-    #btHome:hover,#btCatalogo:hover,#btContato:hover {
+    #btHome:hover,
+    #btCatalogo:hover,
+    #btContato:hover {
         filter: brightness(90%);
         background: #f9ddf9;
-        ;
     }
 
     /*  */
@@ -67,10 +69,12 @@
         align-items: center;
         justify-content: space-evenly;
     }
-
     #ender {
-        font-size: 13px; 
+        font-size: 13px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #logo-instagram:hover{
+        filter: brightness(90%);
     }
 
 
@@ -89,15 +93,30 @@
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
-    .banner{
-        background: #0b5cfc;
+
+    .banner {
+        background: #f9f0fe;
         display: flex;
         width: 100%;
-        
+        justify-content: space-evenly;
+
     }
 
     #img1 {
         margin-top: 60px;
+    }
+
+    #frase {
+        display: flex;
+        margin: auto;
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #f709a468;
+        align-items: center;
+        justify-content: center;
+    }
+    #frase:hover {
+        color: #0b5cfc;
     }
 
     .div-f1 {
@@ -106,65 +125,55 @@
         width: 100%;
     }
 
-    #bemvindo {
+    #conf {
         border: solid 1px #ffffff;
         background: #f9f0fe;
         text-align: center;
         margin: auto;
         width: 50%;
-        margin-top: -12px;
+        margin-top: 5px;
         font-size: 25px;
         font-family: Verdana, Geneva, Tahoma, sans-serif
     }
+    #conf:hover {
+        filter: brightness(90%);
+    }
 
-    #color1 {color: #0b5cfc;} #color2 {color: #f709a4;}
+    #color1 {
+        color: #0b5cfc;
+    }
+
+    #color2 {
+        color: #f709a4;
+    }
 
     .div-f2 {
         background: #f9f0fe;
         color: #000;
         display: flex;
-        height: 100px;
-        width: 100%;
-        margin-top: 14px;
+        margin: auto;
+        
+        margin-top: 5px;
         font-size: 22px;
-        justify-content: space-around;
-        font-family:Verdana, Geneva, Tahoma, sans-serif
+        flex-direction: column;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
     }
 
-    #blu{color: #0b5cfc;} #ros{color: #f709a4;}
+    #t-sobrenos {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        align-items: end;
+        font-size: 30px;
+    }
+    #t-missao{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        align-items: end;
+        font-size: 30px;
+    }
 
-    .div-f3{
+    .termos {
         background: #f9f0fe;
-        display: flex;
-        height: auto;
-        width: auto;
-        padding: 5px;
-        flex-direction: column;
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
     }
-    #t-sobrenos{
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    #text-1{
-        text-align: justify;
-        margin-top: -25px;
-        font-size: 20px;
-        display: flex;
-        flex-direction: column;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-#t-contato{
-    margin-top: -10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-    
-.termos{
-    background: #ffd7f1;
-    margin-top: 10px;
-    text-align: center;
-    width: 100%;
-}
-#dir{
-    height: 30px;
-    width: auto;
-}
 }
