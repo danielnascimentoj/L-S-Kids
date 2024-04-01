@@ -53,6 +53,7 @@
     #btContato:hover {
         filter: brightness(90%);
         background: #f9ddf9;
+        cursor: pointer;
     }
 
     /*  */
